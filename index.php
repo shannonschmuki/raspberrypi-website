@@ -14,6 +14,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['name']) && !empty($_
 $entries = file_exists($guestbookFile) ? file($guestbookFile, FILE_IGNORE_NEW_LINES) : [];
 ?>
 
+<!--für den Abschnitt bis hier wurde ChatGPt für die Grundstruktur als Hilfsmittel verwendet-->
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
